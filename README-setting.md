@@ -9,6 +9,9 @@ git config --global alias.lg "log --graph --abbrev-commit --decorate --format=fo
 
 git clone https://github.com/jonasschmedtmann/advanced-css-course.git advanced-css-course
 
+echo "# advanced-css-course" >> README.md
 git init
-
-git remote add advanced-css-course https://github.com/muezwink/advanced-css-course.git
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/muezwink/advanced-css-course.git
+git push -u origin master
